@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu site simples</title>
+    <style>
+      /* Estilo CSS */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        color: green;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Olá, mundo!</h1>
+      <button id="myButton">Clique aqui</button>
+    </div>
+
+    <!-- Código JavaScript -->
+    <script>
+      // Obtenha o elemento do botão
+      const button = document.getElementById("myButton");
+
+      // Adicione um evento de clique ao botão
+      button.addEventListener("click", function() {
+        alert("Obrigado por clicar no botão!");
+      });
+    </script>
+  </body>
+</html>
